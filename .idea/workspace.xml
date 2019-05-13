@@ -7,20 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc43b147-628d-41d2-a3dc-d2b7aa7f3168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_websocket_javax_websocket_api_1_0_rc5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/servlet/MyWebSocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/info/User.class" afterPath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/info/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/info/Users.class" afterPath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/info/Users.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/udp/UDPServer.class" afterPath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/udp/UDPServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VoipTest/info/User.class" afterPath="$PROJECT_DIR$/out/production/VoipTest/info/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VoipTest/info/Users.class" afterPath="$PROJECT_DIR$/out/production/VoipTest/info/Users.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VoipTest/udp/UDPServer.class" afterPath="$PROJECT_DIR$/out/production/VoipTest/udp/UDPServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/servlet/StartUp.class" afterPath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/servlet/StartUp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VoipTest/servlet/StartUp.class" afterPath="$PROJECT_DIR$/out/production/VoipTest/servlet/StartUp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/udpservice.war" afterPath="$PROJECT_DIR$/udpservice.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VoipTest.iml" afterPath="$PROJECT_DIR$/VoipTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/User.java" afterPath="$PROJECT_DIR$/src/info/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/Users.java" afterPath="$PROJECT_DIR$/src/info/Users.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/udp/UDPServer.java" afterPath="$PROJECT_DIR$/src/udp/UDPServer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartUp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StartUp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/servlet/StartUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="204">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyWebSocket.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyWebSocket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/MyWebSocket.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -177,12 +167,12 @@
         <option value="$PROJECT_DIR$/src/utils/Users.java" />
         <option value="$PROJECT_DIR$/src/utils/MyLogs.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/servlet/StartUp.java" />
         <option value="$PROJECT_DIR$/src/servlet/SendPushToClients.java" />
         <option value="$PROJECT_DIR$/src/info/User.java" />
         <option value="$PROJECT_DIR$/src/info/Users.java" />
         <option value="$PROJECT_DIR$/src/servlet/MyWebSocket.java" />
         <option value="$PROJECT_DIR$/src/udp/UDPServer.java" />
+        <option value="$PROJECT_DIR$/src/servlet/StartUp.java" />
       </list>
     </option>
   </component>
@@ -1036,7 +1026,7 @@
       <workItem from="1557288189904" duration="1938000" />
       <workItem from="1557583256339" duration="22880000" />
       <workItem from="1557681685517" duration="621000" />
-      <workItem from="1557685989057" duration="8642000" />
+      <workItem from="1557685989057" duration="10535000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1557622176134</created>
@@ -1073,11 +1063,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557706989625</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="web socket">
+      <created>1557716816877</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557716816877</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change port 8080">
+      <created>1557723385622</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557723385622</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34081000" />
+    <option name="totallyTimeSpent" value="35974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1104,7 +1108,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49121523" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.4917647" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.4917647" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24304539" sideWeight="0.5082353" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1127,7 +1131,9 @@
     <MESSAGE value="war change" />
     <MESSAGE value="change port" />
     <MESSAGE value="change port 5000" />
-    <option name="LAST_COMMIT_MESSAGE" value="change port 5000" />
+    <MESSAGE value="web socket" />
+    <MESSAGE value="change port 8080" />
+    <option name="LAST_COMMIT_MESSAGE" value="change port 8080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1574,14 +1580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/StartUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/SendPushToClients.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1617,6 +1615,14 @@
             <element signature="e#638#639#0" expanded="true" />
             <element signature="e#684#685#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/StartUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
