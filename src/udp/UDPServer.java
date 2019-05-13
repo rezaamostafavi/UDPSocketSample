@@ -32,7 +32,8 @@ public class UDPServer {
                     LOGGER.info("wait for receive Data.");
                     DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
                     socket.receive(receivePacket);
-                    String sentence = new String(receivePacket.getData(), "UTF-8").replace("\0", "");;
+                    String sentence = new String(receivePacket.getData(), "UTF-8").replace("\0", "");
+                    ;
                     SocketAddress address = receivePacket.getSocketAddress();
                     LOGGER.info("RECEIVED from " + address + " : " + sentence);
                     JSONObject obj = new JSONObject(sentence);
@@ -59,11 +60,16 @@ public class UDPServer {
             User user = Users.users.get(id);
             try {
                 obj.put("serverTime", System.currentTimeMillis());
-                byte[] sendData = obj.toString().getBytes("UTF-8");
-                DatagramPacket sendPacket =
-                        new DatagramPacket(sendData, sendData.length, user.getInetAddress(), user.getClientPort());
-                socket.send(sendPacket);
-                LOGGER.info("Send Message to Client id = " + id + " - address" + user.getInetAddress().getCanonicalHostName());
+                if (user.getInetAddress() != null) {
+                    byte[] sendData = obj.toString().getBytes("UTF-8");
+                    DatagramPacket sendPacket =
+                            new DatagramPacket(sendData, sendData.length, user.getInetAddress(), user.getClientPort());
+                    socket.send(sendPacket);
+                    LOGGER.info("Send Message to Client id = " + id + " - address" + user.getInetAddress().getCanonicalHostName());
+                } else if (user.getSession() != null) {
+                    user.getSession().getBasicRemote().sendText(obj.toString());
+                    LOGGER.info("Send Message to Client id = " + id + " - address" + user.getSession().getId());
+                }
             } catch (Exception e) {
                 LOGGER.warning(e.getMessage());
             }

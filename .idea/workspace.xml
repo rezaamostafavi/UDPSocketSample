@@ -7,11 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc43b147-628d-41d2-a3dc-d2b7aa7f3168" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/servlet/StartUp.class" afterPath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/servlet/StartUp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VoipTest/servlet/StartUp.class" afterPath="$PROJECT_DIR$/out/production/VoipTest/servlet/StartUp.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_websocket_javax_websocket_api_1_0_rc5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/servlet/MyWebSocket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/info/User.class" afterPath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/info/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/info/Users.class" afterPath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/info/Users.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/udp/UDPServer.class" afterPath="$PROJECT_DIR$/out/artifacts/VoipTest_war_exploded/WEB-INF/classes/udp/UDPServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VoipTest/info/User.class" afterPath="$PROJECT_DIR$/out/production/VoipTest/info/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VoipTest/info/Users.class" afterPath="$PROJECT_DIR$/out/production/VoipTest/info/Users.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VoipTest/udp/UDPServer.class" afterPath="$PROJECT_DIR$/out/production/VoipTest/udp/UDPServer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/udpservice.war" afterPath="$PROJECT_DIR$/udpservice.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/StartUp.java" afterPath="$PROJECT_DIR$/src/servlet/StartUp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VoipTest.iml" afterPath="$PROJECT_DIR$/VoipTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/User.java" afterPath="$PROJECT_DIR$/src/info/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/Users.java" afterPath="$PROJECT_DIR$/src/info/Users.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/udp/UDPServer.java" afterPath="$PROJECT_DIR$/src/udp/UDPServer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +36,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="17">
               <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding />
             </state>
@@ -37,14 +46,14 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="170">
+              <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartUp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StartUp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/StartUp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -57,10 +66,22 @@
       <file leaf-file-name="SendPushToClients.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/SendPushToClients.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="102">
+              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyWebSocket.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/servlet/MyWebSocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +90,8 @@
       <file leaf-file-name="UDPServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/udp/UDPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+            <state relative-caret-position="1088">
+              <caret line="70" column="24" lean-forward="false" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,9 +102,11 @@
       <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,9 +114,14 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="221">
+              <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,75 +151,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logger.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/logging/Logger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3111">
-              <caret line="217" column="13" lean-forward="false" selection-start-line="217" selection-start-column="13" selection-end-line="217" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#90418#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#10545#10546#0" expanded="false" />
-                <element signature="e#10624#10625#0" expanded="false" />
-                <element signature="e#18773#18774#0" expanded="false" />
-                <element signature="e#18811#18812#0" expanded="false" />
-                <element signature="e#19897#20077#0" expanded="false" />
-                <element signature="e#20076#20077#0" expanded="false" />
-                <element signature="e#27979#27980#0" expanded="false" />
-                <element signature="e#28026#28027#0" expanded="false" />
-                <element signature="e#30919#30920#0" expanded="false" />
-                <element signature="e#30991#30992#0" expanded="false" />
-                <element signature="e#31692#31693#0" expanded="false" />
-                <element signature="e#31746#31747#0" expanded="false" />
-                <element signature="e#32506#32507#0" expanded="false" />
-                <element signature="e#32535#32536#0" expanded="false" />
-                <element signature="e#64195#64196#0" expanded="false" />
-                <element signature="e#64233#64234#0" expanded="false" />
-                <element signature="e#64585#64586#0" expanded="false" />
-                <element signature="e#64624#64625#0" expanded="false" />
-                <element signature="e#64968#64969#0" expanded="false" />
-                <element signature="e#65004#65005#0" expanded="false" />
-                <element signature="e#65353#65354#0" expanded="false" />
-                <element signature="e#65391#65392#0" expanded="false" />
-                <element signature="e#65734#65735#0" expanded="false" />
-                <element signature="e#65770#65771#0" expanded="false" />
-                <element signature="e#66116#66117#0" expanded="false" />
-                <element signature="e#66153#66154#0" expanded="false" />
-                <element signature="e#66502#66503#0" expanded="false" />
-                <element signature="e#66540#66541#0" expanded="false" />
-                <element signature="e#67410#67411#0" expanded="false" />
-                <element signature="e#67456#67457#0" expanded="false" />
-                <element signature="e#68063#68064#0" expanded="false" />
-                <element signature="e#68110#68111#0" expanded="false" />
-                <element signature="e#68708#68709#0" expanded="false" />
-                <element signature="e#68752#68753#0" expanded="false" />
-                <element signature="e#69356#69357#0" expanded="false" />
-                <element signature="e#69402#69403#0" expanded="false" />
-                <element signature="e#70000#70001#0" expanded="false" />
-                <element signature="e#70044#70045#0" expanded="false" />
-                <element signature="e#70645#70646#0" expanded="false" />
-                <element signature="e#70690#70691#0" expanded="false" />
-                <element signature="e#71294#71295#0" expanded="false" />
-                <element signature="e#71340#71341#0" expanded="false" />
-                <element signature="e#72455#72456#0" expanded="false" />
-                <element signature="e#72497#72498#0" expanded="false" />
-                <element signature="e#72773#72774#0" expanded="false" />
-                <element signature="e#72807#72808#0" expanded="false" />
-                <element signature="e#73475#73476#0" expanded="false" />
-                <element signature="e#73502#73503#0" expanded="false" />
-                <element signature="e#74956#74957#0" expanded="false" />
-                <element signature="e#75002#75003#0" expanded="false" />
-                <element signature="e#75171#75172#0" expanded="false" />
-                <element signature="e#75225#75226#0" expanded="false" />
-                <element signature="e#76166#76167#0" expanded="false" />
-                <element signature="e#76206#76207#0" expanded="false" />
-                <element signature="e#76394#76812#0" expanded="false" />
-                <element signature="e#76811#76812#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -216,13 +175,14 @@
         <option value="$PROJECT_DIR$/lib/log4j.properties" />
         <option value="$PROJECT_DIR$/lib/log4j-core-2.11.2.jar!/org/apache/logging/log4j/core/Logger.class" />
         <option value="$PROJECT_DIR$/src/utils/Users.java" />
-        <option value="$PROJECT_DIR$/src/info/Users.java" />
-        <option value="$PROJECT_DIR$/src/info/User.java" />
         <option value="$PROJECT_DIR$/src/utils/MyLogs.java" />
-        <option value="$PROJECT_DIR$/src/servlet/SendPushToClients.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/udp/UDPServer.java" />
         <option value="$PROJECT_DIR$/src/servlet/StartUp.java" />
+        <option value="$PROJECT_DIR$/src/servlet/SendPushToClients.java" />
+        <option value="$PROJECT_DIR$/src/info/User.java" />
+        <option value="$PROJECT_DIR$/src/info/Users.java" />
+        <option value="$PROJECT_DIR$/src/servlet/MyWebSocket.java" />
+        <option value="$PROJECT_DIR$/src/udp/UDPServer.java" />
       </list>
     </option>
   </component>
@@ -421,9 +381,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/Program Files/Git/bin/git.exe" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3239796" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1073,7 +1036,7 @@
       <workItem from="1557288189904" duration="1938000" />
       <workItem from="1557583256339" duration="22880000" />
       <workItem from="1557681685517" duration="621000" />
-      <workItem from="1557685989057" duration="3803000" />
+      <workItem from="1557685989057" duration="8642000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1557622176134</created>
@@ -1103,15 +1066,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557706348422</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change port 5000">
+      <created>1557706989625</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557706989625</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29242000" />
+    <option name="totallyTimeSpent" value="34081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1135,7 +1104,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49121523" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.4917647" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.4917647" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24304539" sideWeight="0.5082353" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1157,7 +1126,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="war change" />
     <MESSAGE value="change port" />
-    <option name="LAST_COMMIT_MESSAGE" value="change port" />
+    <MESSAGE value="change port 5000" />
+    <option name="LAST_COMMIT_MESSAGE" value="change port 5000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1196,9 +1166,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,7 +1174,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,7 +1184,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1344,9 +1319,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1354,7 +1327,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1362,7 +1337,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1553,58 +1533,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data.java" />
-    <entry file="file://$PROJECT_DIR$/src/info/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/SendPushToClients.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/udp/UDPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/MyLogs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1615,11 +1543,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/StartUp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/SendPushToClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/udp/UDPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="70" column="24" lean-forward="false" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/MyWebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1690,7 +1687,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>java-json</last-edited>
+          <last-edited>javax.websocket:javax.websocket-api:1.0-rc5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
