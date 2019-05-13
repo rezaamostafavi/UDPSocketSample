@@ -19,6 +19,8 @@ public class StartUp extends javax.servlet.http.HttpServlet {
     public void init() throws ServletException {
         super.init();
         UDPServer.start(8080);
+        UDPServer.start(80);
+        UDPServer.start(5000);
     }
 
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
