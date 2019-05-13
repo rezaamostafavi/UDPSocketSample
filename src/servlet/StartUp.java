@@ -18,7 +18,7 @@ public class StartUp extends javax.servlet.http.HttpServlet {
     @Override
     public void init() throws ServletException {
         super.init();
-        UDPServer.start(1234);
+        UDPServer.start(443);
     }
 
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
